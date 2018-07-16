@@ -8,7 +8,11 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({
+  name: 'About-Page',
+  segment: 'CustomAbout/:id',
+  defaultHistory: ['HomePage']
+})
 @Component({
   selector: 'page-about',
   templateUrl: 'about.html',
@@ -19,7 +23,7 @@ export class AboutPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad AboutPage');
+    console.log('Register id: ', this.navParams.get('id'));
   }
 
 }
