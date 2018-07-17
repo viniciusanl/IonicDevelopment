@@ -1,3 +1,5 @@
+import { BoxComponent } from './../components/box/box';
+import { Page1Page } from './../pages/page1/page1';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -11,7 +13,9 @@ import { LocationStrategy, PathLocationStrategy } from '../../node_modules/@angu
 
 @NgModule({
   declarations: [
-    MyApp
+    BoxComponent,
+    MyApp,
+    Page1Page
   ],
   imports: [
     BrowserModule,
@@ -21,7 +25,8 @@ import { LocationStrategy, PathLocationStrategy } from '../../node_modules/@angu
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    MyApp
+    MyApp,
+    Page1Page
   ],
   providers: [
     StatusBar,

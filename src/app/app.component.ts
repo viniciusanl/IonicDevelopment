@@ -1,3 +1,4 @@
+import { Page1Page } from './../pages/page1/page1';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -20,6 +21,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: 'HomePage' },
       { title: 'List', component: 'ListPage' },
+      { title: 'Page1', component: Page1Page }
 
     ];
 
