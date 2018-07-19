@@ -31,8 +31,8 @@ import { LocationStrategy, PathLocationStrategy } from '../../node_modules/@angu
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
-    {provide: LocationStrategy, useClass: PathLocationStrategy}
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    /*{provide: LocationStrategy, useClass: PathLocationStrategy}*/
   ]
 })
 export class AppModule {}
