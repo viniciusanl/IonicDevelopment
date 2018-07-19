@@ -5,7 +5,7 @@ import { NavController, NavParams, IonicPage } from 'ionic-angular';
   name: 'ListPage',
   segment: 'List',
   defaultHistory: ['HomePage'],
-  priority: 'high'
+  priority: 'low'
   /*high - Maior prioridade no carregamento da página;
   low - menor prioridade, so vai carregar depois que todas as páginas em high carregar;
   off - desligar prioridade no carregamento para a página em questão. */

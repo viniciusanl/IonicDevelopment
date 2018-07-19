@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { NavController, IonicPage } from 'ionic-angular';
 
 @IonicPage({
-
+  name: 'HomePage',
+  priority: 'high'
 })
 @Component({
   selector: 'page-home',
