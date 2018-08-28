@@ -10,18 +10,32 @@
 <ion-content padding class="principal-custom">
     <ion-card>
         <img src="assets/img/teste1.jpg" />
-        <ion-card-content>
+        <!-- Colocando comentário abaixo da foto
+          <ion-card-content>
             <ion-card-title>
-                Teste Imagem
+                //Titulo do Card
             </ion-card-title>
 
-        </ion-card-content>
+        </ion-card-content>-->
 
     </ion-card>
 
+
+    <ion-item>
+        <ion-label>Data</ion-label>
+        <ion-datetime displayFormat="DD/MM/YYYY" [(ngModel)]="myDate"></ion-datetime>
+    </ion-item>
+
+    <!-- Box de data
     <ion-item>
         <input type="datetime-local">
-    </ion-item>
+    </ion-item> -->
+
+    <!-- Teste textbox
+    <ion-item>
+        <ion-label></ion-label>
+        <ion-input type="text"></ion-input>
+    </ion-item> -->
 
 
     <div>
