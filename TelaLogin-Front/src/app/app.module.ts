@@ -21,7 +21,8 @@ import { LoginPage } from '../pages/login/login';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    LoginPage
   ],
   providers: [
     StatusBar,
