@@ -10,7 +10,7 @@ export class HomePage {
 
   constructor(public navCtrl: NavController) {
 
-    this.navCtrl.setRoot(LoginPage);
+    //this.navCtrl.setRoot(LoginPage);
   }
 
 }
