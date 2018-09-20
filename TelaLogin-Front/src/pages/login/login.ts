@@ -24,6 +24,7 @@ export class LoginPage {
   }
 
   pushPage (){
+    //Testando
     this.navCtrl.push(HomePage);
   }
 
