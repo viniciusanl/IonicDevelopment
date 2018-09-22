@@ -25,7 +25,11 @@ export class LoginPage {
 
   pushPage (){
     //Testando
-    this.navCtrl.push(HomePage);
+    this.navCtrl.push(HomePage, {
+      message: () =>{
+        console.log('Welcome to the program');
+      }
+    });
   }
 
 }
